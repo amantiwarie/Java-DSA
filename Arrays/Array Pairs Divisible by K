@@ -8,6 +8,9 @@ class Solution {
         int rem =((i%k)+k)%k;  
        map.put(rem,map.getOrDefault(rem,0)+1);
        }
+
+
+
        for(int i : map.keySet()){
          int rem =((i%k)+k)%k;  
         if(rem==0){
