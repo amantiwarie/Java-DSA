@@ -3,7 +3,9 @@ There is a task management system that allows users to manage their tasks, each 
 
 Implement the TaskManager class:
 
-TaskManager(vector<vector<int>>& tasks) initializes the task manager with a list of user-task-priority triples. Each element in the input list is of the form [userId, taskId, priority], which adds a task to the specified user with the given priority.
+TaskManager(vector<vector<int>>& tasks) initializes the task manager with a list of user-task-priority triples. Each element in the input list is 
+
+of the form [userId, taskId, priority], which adds a task to the specified user with the given priority.
 
 void add(int userId, int taskId, int priority) adds a task with the specified taskId and priority to the user with userId. It is guaranteed that taskId does not exist in the system.
 
