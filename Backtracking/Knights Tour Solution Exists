@@ -4,6 +4,8 @@ public class Main {
 	
 	static boolean checkSolution(int sol[][]){
 	    int[] x = new int[64];
+
+
 	    int[] y = new int[64];
 	    for(int i=0;i<64;i++){
 	        x[i] = -1;
