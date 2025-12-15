@@ -22,6 +22,8 @@ The answer is "xyz ", with the length of 3
 
 import java.util.*;
 
+
+
 class Solution {
     public int longestSubstring(String s) {
         int n = s.length();
