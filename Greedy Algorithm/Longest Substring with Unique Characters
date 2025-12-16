@@ -18,6 +18,10 @@ Output
 3
 Explanation
 
+
+
+
+
 The answer is "xyz ", with the length of 3
 
 import java.util.*;
