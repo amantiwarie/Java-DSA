@@ -11,6 +11,7 @@ public class Main {
         int[][] chess = new int[n][n];
         
         printKnightsTour(chess, r, c, 1);
+
         
     }
 
