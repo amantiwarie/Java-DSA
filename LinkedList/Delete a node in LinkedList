@@ -10,6 +10,7 @@ class Node
 		data = d;
 		next = null;
 	}
+
 }
 
 class Main
