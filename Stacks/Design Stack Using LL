@@ -5,6 +5,7 @@ class Node {
     Node link;
 }
 
+
 class StackUsingLinkedlist {
     Node top;
 
