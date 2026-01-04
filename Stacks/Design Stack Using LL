@@ -4,8 +4,6 @@ class Node {
     int data;
     Node link;
 }
-
-
 class StackUsingLinkedlist {
     Node top;
 
