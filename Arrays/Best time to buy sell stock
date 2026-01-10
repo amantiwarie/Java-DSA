@@ -5,7 +5,6 @@ class Solution {
         for(int price : prices){
             if(minprice>price){
 
-
                 minprice=price;
             }
 
