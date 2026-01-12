@@ -6,6 +6,7 @@ class Solution {
                 return true;
             seen.put(num, seen.getOrDefault(num, 0) + 1);
         }
+
         return false;
     }
 }
