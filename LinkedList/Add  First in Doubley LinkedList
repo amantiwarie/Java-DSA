@@ -10,7 +10,8 @@ class Node{
         next = null;
         prev = null;
     }
-}
+
+
 class LinkedList{
     Node head;
     void add(int data ){
