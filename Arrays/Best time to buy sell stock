@@ -4,7 +4,6 @@ class Solution {
         int maxprofit =0;
         for(int price : prices){
             if(minprice>price){
-
                 minprice=price;
             }
 
