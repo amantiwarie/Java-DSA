@@ -8,7 +8,6 @@ class Node {
         left = right = null;
     }
 }
-
 class BST {
     Node root = null;
 
