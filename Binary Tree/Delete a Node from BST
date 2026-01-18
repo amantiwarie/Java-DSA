@@ -24,7 +24,6 @@ class BST {
     print(root.left);                  // then left
     print(root.right);                 // then right
 }
-
 }
 
 class Solution {
