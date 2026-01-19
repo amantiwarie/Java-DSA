@@ -9,7 +9,6 @@ class Node {
         this.next = null;
     }
 }
-
 class MyHashMap {
 
     private Node[] map;
