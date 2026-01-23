@@ -22,6 +22,8 @@ Explanation
 
 The output will be true as destination point can be reached using the following sequence of moves: (1, 1) -> (1, 2) -> (3, 2) -> (3, 5)
 
+
+
 import java.util.*;
 
 class Solution {
