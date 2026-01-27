@@ -4,7 +4,6 @@ class Solution {
         ArrayList<Integer> res = new ArrayList<>();
         boolean[] visited = new boolean[adj.size()];
         Queue<Integer> q = new LinkedList<>();
-
         int s = 0; // starting node
         visited[s] = true;
         q.add(s);
