@@ -6,7 +6,6 @@ class Solution {
         createSubset(nums, 0, res, subset);
         return res;        
     }
-
     private void createSubset(int[] nums, int index, List<List<Integer>> res, List<Integer> subset) {
         if (index == nums.length) {
             res.add(new ArrayList<>(subset));
