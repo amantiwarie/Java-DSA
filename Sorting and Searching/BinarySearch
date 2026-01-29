@@ -5,7 +5,6 @@ class Solution {
         while(si<=ei){
             int mid =si + (ei-si)/2;
             if(arr[mid]==tar) return mid;
-
             if(tar<arr[mid]){
                 ei=mid-1;
             }
