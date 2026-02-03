@@ -7,7 +7,6 @@ nums[p...q] is strictly decreasing,
 nums[q...n − 1] is strictly increasing.
 Return true if nums is trionic, otherwise return false.
 
- 
 
 Example 1:
 
