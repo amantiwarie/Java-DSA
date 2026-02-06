@@ -1,0 +1,37 @@
+You are given an integer array nums and an integer k.
+
+An array is considered balanced if the value of its maximum element is at most k times the minimum element.
+
+You may remove any number of elements from nums​​​​​​​ without making it empty.
+
+Return the minimum number of elements to remove so that the remaining array is balanced.
+
+Note: An array of size 1 is considered balanced as its maximum and minimum are equal, and the condition always holds true.
+
+ 
+
+Example 1:
+
+Input: nums = [2,1,5], k = 2
+
+Output: 1
+
+Explanation:
+
+Remove nums[2] = 5 to get nums = [2, 1].
+Now max = 2, min = 1 and max <= min * k as 2 <= 1 * 2. Thus, the answer is 1.
+
+class Solution {
+    public int minRemoval(int[] nums, int k) {
+        int n = nums.length;
+        Arrays.sort(nums);
+        int ans = 0;
+        for(int i = 0, j = 0; i < n; i ++){
+            while(j + 1 < n && (long) nums[i] * (long) k >= nums[j + 1]){
+                j ++;
+            }
+            ans = Math.max(ans, j - i + 1);
+        }
+        return n - ans;
+    }
+}
