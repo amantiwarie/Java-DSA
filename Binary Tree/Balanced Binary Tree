@@ -3,7 +3,6 @@ class Solution {
         if(root == null) {
             return true;
         }
-        
         int leftheight = maxDepth(root.left);
         int rightheight = maxDepth(root.right);
         
