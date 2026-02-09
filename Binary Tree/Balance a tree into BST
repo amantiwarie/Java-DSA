@@ -23,7 +23,6 @@ class Solution {
          fillSortedList(list, root.right);   
     }
 
-
     public TreeNode balanced(ArrayList<Integer> list,int si,int ei){
         if(si>ei) return null;
         int mid =(si+ei)/2;
