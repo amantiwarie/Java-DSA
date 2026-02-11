@@ -5,8 +5,6 @@ A subarray is called balanced if the number of distinct even numbers in the suba
 
 Return the length of the longest balanced subarray.
 
- 
-
 Example 1:
 
 Input: nums = [2,5,4,3]
