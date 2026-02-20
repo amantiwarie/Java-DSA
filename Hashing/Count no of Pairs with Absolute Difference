@@ -6,7 +6,9 @@ class Solution {
        // write code here
        long count =0;
        HashSet<Integer> set = new HashSet<>();
-      
+
+
+
         for (int i : arr){
         set.add(i);
        }
