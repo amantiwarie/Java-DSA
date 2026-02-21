@@ -11,7 +11,6 @@ class Solution {
         while (!q.isEmpty()) {
             int node = q.poll();
             res.add(node);
-
             // using normal for loop to visit all adjacent nodes
             for (int i = 0; i < adj.get(node).size(); i++) {
                 int neighbor = adj.get(node).get(i);
