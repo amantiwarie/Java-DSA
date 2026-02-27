@@ -8,6 +8,7 @@ class Solution {
             int row2 = q[2];
             int col2 = q[3];
 
+
             for(int i=row1;i<=row2;i++){
                 diff[i][col1] += 1;
                 if(col2+1 < n) diff[i][col2+1] -= 1;
