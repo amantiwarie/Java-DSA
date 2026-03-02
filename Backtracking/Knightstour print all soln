@@ -12,10 +12,6 @@ public class Main {
         
         printKnightsTour(chess, r, c, 1);
 
-
-
-
-
     }
 
     public static void printKnightsTour(int[][] chess, int r, int c, int m) 
