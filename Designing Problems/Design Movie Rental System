@@ -18,7 +18,6 @@ List<List<Integer>> report() Returns a list of cheapest rented movies as describ
 Note: The test cases will be generated such that rent will only be called if the shop has an unrented copy of the movie, and drop will only be called if the shop had previously rented out the movie.
 
  
-
 Example 1:
 
 Input
