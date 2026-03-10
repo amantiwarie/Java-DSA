@@ -10,6 +10,7 @@ class Node {
     }
 }
 
+
 class Main {
     public static Node addToTheLast(Node head, Node node) {
         if (head == null) return node;
