@@ -15,6 +15,7 @@ A integer N denoting number of queries.
 
 A query can be one of the following types:
 
+
 0 X --> Calls AccioQueue(X)
 
 1 → Front()
