@@ -5,6 +5,8 @@ A subsequence sub of nums with length x is called valid if it satisfies:
 Return the length of the longest valid subsequence of nums.
  
 
+
+
 Example 1:
 
 Input: nums = [1,2,3,4,5], k = 2
