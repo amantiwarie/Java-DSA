@@ -7,8 +7,6 @@
     }
   }
 
-
-
 class Solution{
     public ArrayList <Integer> bottomView(Node root)
 
