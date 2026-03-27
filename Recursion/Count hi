@@ -10,6 +10,7 @@ public class Main {
         if (s.charAt(idx) == 'h' && s.charAt(idx + 1) == 'i') {
             return 1 + countHi(s, idx + 2); // move 2 ahead
         } else {
+
             return countHi(s, idx + 1);     // move 1 ahead
         }
     }
