@@ -8,8 +8,6 @@ Output
 
 23 24 11 35 12 10
 
-
-
 import java.util.*;
 import java.io.*;
 class Node{
