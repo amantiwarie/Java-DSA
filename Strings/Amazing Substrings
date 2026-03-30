@@ -9,10 +9,8 @@ Output Format
 Print a single integer X mod 10003, where X is the number of Amazing Substrings in the given string.
 Example 1
 Input
-
 ABEC
 Output
-
 6
 Explanation
 
