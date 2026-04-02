@@ -10,7 +10,6 @@ public class Main {
         // If current subset sum reached target, move to form next subset
         if (currSum == target)
             return backtrack(nums, used, k - 1, 0, 0, target);
-
         // Try including unused numbers
         for (int i = start; i < nums.length; i++) {
             if (used[i]) continue; // already used
