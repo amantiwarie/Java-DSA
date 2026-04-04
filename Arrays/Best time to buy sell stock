@@ -5,6 +5,7 @@ class Solution {
         for(int price : prices){
             if(minprice>price){
                 minprice=price;
+
             }
 
             maxprofit = Math.max(maxprofit,price-minprice);
