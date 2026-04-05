@@ -7,6 +7,7 @@ class Solution {
         q.add(root);
 
 
+
         while (!q.isEmpty()) {
             int levelSize = q.size();
             List<Integer> currentLevel = new ArrayList<>();
