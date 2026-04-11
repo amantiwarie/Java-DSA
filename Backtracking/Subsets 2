@@ -11,6 +11,7 @@ class Solution {
         if (i == nums.length) {
             res.add(new ArrayList<>(subset));
             return;
+
         }
 
         subset.add(nums[i]);
