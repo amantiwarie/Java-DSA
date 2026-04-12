@@ -2,6 +2,7 @@
 import java.util.*;
 import java.io.*;
 
+
 class Solution{
     static int partition(int []arr,int si,int ei){
         int pivot = arr[ei];
