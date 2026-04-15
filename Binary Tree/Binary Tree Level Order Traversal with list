@@ -10,6 +10,7 @@ class Node {
     }
 }
 
+
 class BST {
     Node root = null;
 
