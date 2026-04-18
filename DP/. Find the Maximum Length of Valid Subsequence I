@@ -8,6 +8,7 @@ class Solution {
         for (int num : nums) {
             boolean isOdd = num % 2 == 1;
 
+
             if (isOdd == expectOdd) {
                 alternating++;
                 expectOdd = !expectOdd;
