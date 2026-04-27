@@ -1,0 +1,26 @@
+import java.util.*;
+import java.util.stream.Stream;  
+public class Main
+{
+	public static void main(String[] args) {
+	  
+	    
+	  
+	    
+	    List<String> list = Arrays.asList("apple","banana","mango","oil");
+	    
+	   String res= list.stream().
+	    filter(x->x.length()>4)
+	  //.forEach(System.out::println)
+	    .map(String ::toUpperCase)
+	    .reduce("",(a,b)->a+b);
+	    //.forEach(System.out::println);
+	    System.out.println(res);
+	    
+	    
+	    
+	    
+	    
+	    
+	}
+}
