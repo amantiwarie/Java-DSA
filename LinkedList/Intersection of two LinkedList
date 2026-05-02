@@ -17,10 +17,8 @@ class Main {
     // Function to find the intersection node
     static Node intersectingNode(Node headA, Node headB) {
         if(headA==null || headB==null) return null;
-
         Node t1 =headA;
         Node t2 =headB;
-
         while(t1!=t2){
             t1 = (t1==null) ? headB : t1.next;
             t2 = (t2==null) ? headA : t2.next;
