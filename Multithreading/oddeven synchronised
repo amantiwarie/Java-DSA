@@ -1,0 +1,39 @@
+class PrintNumbers {
+    int number = 1;
+
+    synchronized void printOdd() {
+        while(number <= 10) {
+            if(number % 2 == 0) {
+                try { wait(); } catch(Exception e) {}
+            }
+            else {
+                System.out.println("Odd: " + number++);
+                notify();
+            }
+        }
+    }
+
+    synchronized void printEven() {
+        while(number <= 10) {
+            if(number % 2 != 0) {
+                try { wait(); } catch(Exception e) {}
+            }
+            else {
+                System.out.println("Even: " + number++);
+                notify();
+            }
+        }
+    }
+}
+
+public class EvenOddSync {
+    public static void main(String[] args) {
+        PrintNumbers p = new PrintNumbers();
+
+        Thread t1 = new Thread(() -> p.printOdd());
+        Thread t2 = new Thread(() -> p.printEven());
+
+        t1.start();
+        t2.start();
+    }
+}
