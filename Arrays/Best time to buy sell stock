@@ -8,6 +8,8 @@ class Solution {
 
             }
 
+
+
             maxprofit = Math.max(maxprofit,price-minprice);
         }
         return maxprofit;
