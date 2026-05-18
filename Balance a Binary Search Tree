@@ -9,7 +9,6 @@ The input is given in a preorder way, that is, the node then left subtree, and t
 
 Output Format
 Return the root of the balanced tree, the driver code will verify it.
-
 Example 1
 
 Input
