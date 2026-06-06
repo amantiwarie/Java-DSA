@@ -12,8 +12,6 @@ class Solution {
                 if (count >= n) count /= 10;  // Backtrack if needed
                 count++;
                 while (count % 10 == 0) {
-
-
                     count /= 10;  // Skip trailing zeros
                 }
             }
