@@ -14,6 +14,7 @@ class Solution{
     {
         ArrayList<Integer> res = new ArrayList<>();
         Queue<info> q =new LinkedList<>();
+
         TreeMap<Integer,Integer> map =new TreeMap<>();
         q.add(new info(root,0));
         while(!q.isEmpty()){
