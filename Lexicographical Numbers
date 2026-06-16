@@ -15,6 +15,7 @@ class Solution {
                 while (count % 10 == 0) {
                     count /= 10;  // Skip trailing zeros
                 }
+
             }
         }
         return result;
