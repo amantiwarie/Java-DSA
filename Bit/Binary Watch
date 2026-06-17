@@ -12,9 +12,6 @@ The minute must consist of two digits and may contain a leading zero.
 
 For example, "10:2" is not valid. It should be "10:02".
 
-
- 
-
 Example 1:
 
 Input: turnedOn = 1
