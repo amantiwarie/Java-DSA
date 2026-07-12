@@ -9,6 +9,8 @@ Return the number of fruit types that remain unplaced after all possible allocat
 
 Example 1:
 
+
+
 Input: fruits = [4,2,5], baskets = [3,5,4]
 
 Output: 1
