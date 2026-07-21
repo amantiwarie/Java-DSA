@@ -19,6 +19,7 @@ Explanation:
 
 
 fruits[0] = 4 is placed in baskets[1] = 5.
+
 fruits[1] = 2 is placed in baskets[0] = 3.
 fruits[2] = 5 cannot be placed in baskets[2] = 4.
 Since one fruit type remains unplaced, we return 1.
