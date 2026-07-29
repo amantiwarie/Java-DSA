@@ -11,6 +11,7 @@ class Solution {
 
                 TreeNode curr = q.poll();
                 levelSum += curr.val;
+
                 if (curr.left != null) q.offer(curr.left);
                 if (curr.right != null) q.offer(curr.right);
             }
