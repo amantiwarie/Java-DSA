@@ -13,9 +13,6 @@
  *         this.right = right;
  *     }
 
-
-
-
  * }
  */
 class Solution {
