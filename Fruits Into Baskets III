@@ -27,6 +27,7 @@ Since one fruit type remains unplaced, we return 1.
 class Solution {
     int n;
     int[] seg;
+
     void Update(int p) { 
         seg[p] = Math.max(seg[p << 1], seg[p << 1 | 1]); 
     }
