@@ -24,6 +24,8 @@ fruits[1] = 2 is placed in baskets[0] = 3.
 fruits[2] = 5 cannot be placed in baskets[2] = 4.
 Since one fruit type remains unplaced, we return 1.
 
+
+
 class Solution {
     int n;
     int[] seg;
