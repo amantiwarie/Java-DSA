@@ -12,7 +12,8 @@ class Solution {
                 levelSum += curr.val;
 
                 if (curr.left != null) q.offer(curr.left);
-                if (curr.right != null) q.offer(curr.right);
+                if (curr.right != null) q.offer(curr.right)
+
 
 
             }
