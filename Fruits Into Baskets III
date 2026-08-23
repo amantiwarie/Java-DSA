@@ -31,6 +31,7 @@ class Solution {
     int[] seg;
 
     void Update(int p) { 
+
         seg[p] = Math.max(seg[p << 1], seg[p << 1 | 1]); 
     }
     void Build(int p, int l, int r, int[] baskets) {
