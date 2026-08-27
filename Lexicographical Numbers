@@ -10,6 +10,8 @@ class Solution {
             result.add(count);
             if (count * 10 <= n) {
                 count *= 10;  // Move to next lexicographical level
+
+
             } else {
                 if (count >= n) count /= 10;  // Backtrack if needed
                 count++;
