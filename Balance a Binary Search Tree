@@ -8,6 +8,7 @@ The First line contains space- separated integers denoting the nodes of the bina
 The input is given in a preorder way, that is, the node then left subtree, and then right subtree as shown in the example.
 
 Output Format
+
 Return the root of the balanced tree, the driver code will verify it.
 Example 1
 
